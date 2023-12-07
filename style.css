@@ -41,6 +41,7 @@ background-color: #1F2937;
 
 .top h1 {
     font-size: 48px;
+    font-weight: bolder;
 }
 
 .top p {
@@ -56,6 +57,12 @@ background-color: #1F2937;
 
 .top button{
     background-color: #3882F6;
+    border-radius: 12px;
+    margin: 4px 2px;
+    padding: 8px;
+    color: #F9FAF8 ;
+    width: 100px;
+    
 }
 
 .mid { 
@@ -73,8 +80,6 @@ background-color: #1F2937;
     display:inline-block;
     margin: 30px;
 }
-
-.mid
 
 .middle {
     background-color: #E5E7EB;
@@ -99,6 +104,17 @@ background-color: #1F2937;
 
 .calltoact {
     background-color: #3882F6;
+    width: 500px;
+    height: auto;
+}
+
+.calltoact button{
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid white ;
+    padding: 8px;
+    color: #F9FAF8 ;
+    width: 100px;
 }
 
 .footer{
