@@ -116,9 +116,11 @@ background-color: #1F2937;
     width: 100px;
 }
 
-.footer{
+.footer {
     background-color: #1F2937;
     text-align: center;
     color: #e5e7eb;
-    padding: 35px;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
