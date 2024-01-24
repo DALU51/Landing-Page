@@ -1,126 +1,194 @@
-body {
-margin: 0px;
+@font-face {
+    font-family: 'MoraiOne';
+    src: url(Moirai_One/MoiraiOne-Regular.ttf);
 }
-
-.header , .top{
-background-color: #1F2937;
+body{
+    margin: 0;
+    font-family: 'MoraiOne';
 }
-
-.header{
-    margin-bottom: 0;
-    padding: 10px 110px 0px 110px;
-    display: flex;
-}
-
-.header ul{
-    display: inline-flex;
-    color: #e5e7eb;
-    font-size: 18px;
-    position: absolute;
-    top: auto;
-    right: 0;
-    padding: 10px 0px 0px 0px;
-}
-
-.header ul p{
-    padding: 0px 50px 0px 0px ;
-}
-.header h3{
-    display: inline-block;
-    position: relative;
-    padding: 10px 0px 0px 0px;
-    color: #F9FAF8;
-    font-size: 24px;
-}
-#Writing{
+#header, #hero {
+    background-color: #1F2937;
     margin: 0;
 }
-.top img{
-    position: absolute;
-    right: 45px;
+.Nav {
+    display: flex;
+    margin: 0px 180px;
+    text-decoration: none;
+    color: white;
 }
-
-.top h1 {
-    font-size: 48px;
+.HeaderLogo h1{
+    font-size: 24px;
+    color: #F9FAF8;
     font-weight: bolder;
 }
+.Navbar{
+    margin: 0;
+    display: flex;
+    padding: 10px 0px 0px 215px;
+    margin-top: 10px;
+}
+.NavOptns{
+    margin: 0 0;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+}
+.Navbar a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+.heroCntnt{
+    display: flex;
+    margin: 0px 180px;
+    padding: 75px 0px 100px 0px;
+}
+.herotxt, .heroImg{
+    width: 460px;
+}
+.heroMain h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+.heroSec p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+.heroBtn{
+    padding-top: 15px;
+}
+.heroBtn button{
+    font-family: 'MoraiOne';
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 12px;
+    width: 100px;
+    padding: 10px 0px;
+}
 
-.top p {
+.heroImg{
+    background-color: gray;
+    color: white;
+    margin: 0px;
+}
+.heroImg p{
+    color: white;
+    margin: 0;
+    padding-top: 125px;
+    text-align: center;
+}
+#information{
+    margin: 0;
+}
+.infoSection{
+    display: block;
+    margin: 0px 180px;
+}
+.infoTxt p{
+    text-align: center;
+    margin: 0;
+    padding: 30px 0px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+.infoImg{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.image-container{
+    width: 200px;
+    height: 250px;
+    align-items: center;
+}
+.image {
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+}
+.image-container p{
+    width: 200px;
+    height: 75px;
+    margin: 10px 0px;
+    text-align: center;
     font-size: 18px;
 }
-
-.top {
-    padding: 50px;
-    color: #F9FAF8 ;
+#quote{
+    background-color: #e5e7eb;
+    height: 400px;
 }
-
-.top button{
-    background-color: #3882F6;
-    border-radius: 12px;
-    margin: 4px 2px;
-    padding: 8px;
-    color: #F9FAF8 ;
-    width: 100px;
-    
+.quoteBigSmall {
+    margin: 0px 180px;
+    height: 300px;
 }
-
-.mid { 
-    padding: 100px;
-}
-
-.mid h2 {
-    text-align: center;
-}
-
-.img {
-    border: 2px solid #3882F6;
-    width: 100px;
-    height: 100px;
-    display:inline-block;
-    margin: 30px;
-}
-
-.middle {
-    background-color: #E5E7EB;
-    padding: 100px;
-}
-
-.middle p{
+.quoteBig p{
+    font-size: 36px;
     font-style: italic;
-    text-decoration: 36px #1F2937;
+    padding-top: 100px ;
+    margin: 0;
+    text-align: left;
+    height: 210px;
+    width: 890px;
 }
-
-.quote{
-    text-decoration: 36px #1F2937;
-    font-style: italic;
+.quoter {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
     text-align: right;
+    width: 890px;
 }
-
-.bottom {
-    display: block;
-    padding: 30px; 
-}
-
-.calltoact {
+.CallBox {
+    margin: 140px 180px;
     background-color: #3882F6;
-    width: 500px;
-    height: auto;
+    border-radius: 12px;
+    height: 125px;
+    display: flex;
+    color: white;
+}
+.CallText{
+    width: 700px;
+    padding: 30px 0px 0px 70px;
+}
+.CallText p{
+    font-family: 'MoraiOne';
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
+.CallText .TopText{
+    font-weight: bold;
+    font-size: 24px;
+}
+.CallBtn {
+    width: 150;
+    align-items: center;
+    padding: 40px 100px 0px 0px;
 }
 
-.calltoact button{
-    background-color: transparent;
+.CallBtn button{
+    font-family: 'MoraiOne';
+    border: 2.5px white solid ;
     border-radius: 12px;
-    border: 2px solid white ;
-    padding: 8px;
-    color: #F9FAF8 ;
+    color: #F9FAF8;
+    background-color: transparent;
+    height: 40px;
     width: 100px;
 }
-
-.footer {
+#footer{
+    bottom: 0;
     background-color: #1F2937;
     text-align: center;
-    color: #e5e7eb;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
+    color: #F9FAF8;
+    height: 50px;
+    padding-top: 30px;
+    font-size: 16px;
 }
